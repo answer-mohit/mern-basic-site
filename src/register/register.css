@@ -1,0 +1,18 @@
+.container{
+    box-sizing: border-box;
+}
+
+.register{
+
+    background-color: white;
+    box-shadow: 10px 10px 28px silver;
+    padding:50px;
+    margin:auto;
+    border-radius: 20px;
+
+}
+.person{
+    display:flex;
+justify-content: space-around;
+
+}

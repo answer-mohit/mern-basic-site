@@ -1,0 +1,27 @@
+
+.nav{
+    display:flex;
+    justify-content: space-around;
+    margin:0;
+    text-decoration: none;
+    background-color: rgb(104, 95, 233);
+align-items: center;
+}
+.text{
+    color:silver;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding:20px ;
+    
+}
+.text:hover{
+    color:white;
+}
+.link{
+    font-weight: bold;
+    color:white;
+
+}
+
+    
