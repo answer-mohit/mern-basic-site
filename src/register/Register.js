@@ -30,7 +30,7 @@ if(!person.fname||!person.lname||!person.email||!person.confirm_password||!perso
 const newPeople={...person,id:new Date().getTime().toString()}
 setpeople([...people,newPeople]);
 //save the registration data in database
-axios.post('http://localhost:8000/add',{
+axios.post('https://basic-site.herokuapp.com/add',{
     fname:person.fname,
     lname:person.lname,
     email:person.email,
